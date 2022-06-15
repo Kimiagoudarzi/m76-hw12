@@ -1,0 +1,131 @@
+body {
+  margin: 0;
+  width: 100vw;
+  height: 100vh;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.partleft {
+  background-color: #393661;
+  width: 19 vw;
+  height: 70vh;
+  margin-top: 120px;
+  margin-right: 0px;
+  margin-bottom: 20px;
+  margin-left: 0px;
+}
+
+.partright {
+  width: 33vw;
+  height: 68vh;
+  background-color: rgb(255, 255, 255);
+  margin-top: 120px;
+  margin-right: 0px;
+  margin-bottom: 20px;
+  margin-left: 0px;
+  box-shadow: 14px 0px 30px -1px rgba(0, 0, 0, 0.61);
+}
+
+.formright {
+  display: flex;
+  flex-flow: column wrap;
+  margin-top: 20px;
+  margin-right: 40px;
+  margin-bottom: 20px;
+  margin-left: 40px;
+  line-height: 40px;
+}
+
+.formleft {
+  margin-top: 30px;
+  margin-right: 40px;
+  margin-bottom: 20px;
+  margin-left: 30px;
+  color: rgb(255, 255, 255);
+}
+
+.formleft span {
+  color: #89899f;
+  font-size: 13px;
+  padding-top: 0px;
+  padding-right: 0px;
+  padding-bottom: 0px;
+  padding-left: 8px;
+}
+
+.partleft p {
+  font-size: 17px;
+  margin-top: 6px;
+  margin-right: 0px;
+  margin-bottom: 30px;
+  margin-left: 0px;
+}
+
+.partleft h1 {
+  margin-top: 25px;
+  margin-right: 0px;
+  margin-bottom: 60px;
+  margin-left: 0px;
+  font-weight: 400;
+}
+
+.partright h1 {
+  font-weight: 400;
+  line-height: 10px;
+}
+
+.formleft i {
+  color: #89899f;
+  font-size: 13px;
+}
+
+.footer {
+  margin-top: 200px;
+  margin-right: 0px;
+  margin-bottom: 0px;
+  margin-left: 0px;
+}
+
+.footer i {
+  color: rgb(255, 255, 255);
+  padding-top: 0px;
+  padding-right: 15px;
+  padding-bottom: 0px;
+  padding-left: 0px;
+  font-size: 17px;
+}
+
+.btn {
+  margin-top: 70px;
+  margin-right: 0px;
+  margin-bottom: 0px;
+  margin-left: 0px;
+}
+
+button {
+  border-radius: 3px;
+  color: rgb(255, 255, 255);
+  background-color: #393661;
+  border: none;
+  width: 100%;
+  height: 45px;
+  font-size: 17px;
+}
+
+.formright input {
+  margin-top: 0px;
+  margin-right: 0px;
+  margin-bottom: 20px;
+  margin-left: 0px;
+  height: 40px;
+}
+
+.title {
+  display: flex;
+}/*# sourceMappingURL=styles.css.map */

@@ -1,0 +1,30 @@
+@mixin flex {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+@mixin margin ($top: null, $right: null, $bottom: null, $left: null) {
+    margin-top: $top;
+    margin-right: $right;
+    margin-bottom: $bottom;
+    margin-left: $left;
+    
+}
+@mixin padding ($top: null, $right: null, $bottom: null, $left: null) {
+    padding-top: $top;
+    padding-right: $right;
+    padding-bottom: $bottom;
+    padding-left: $left;
+    
+}
+@mixin wrap {
+    display: flex;
+    flex-flow: column wrap; 
+}
+@mixin border ($radius) {
+    border-radius:$radius;
+}
+@mixin titleflex {
+    display: flex;
+    
+}
